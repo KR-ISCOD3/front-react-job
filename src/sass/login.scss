@@ -1,0 +1,15 @@
+.middle-content{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+@media (max-width: 568px) {
+    .login-form{
+        width: 20rem;
+    }
+}
+@media (min-width: 768px) {
+    .login-form{
+        width: 30rem;
+    }
+}
